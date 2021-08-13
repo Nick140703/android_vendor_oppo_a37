@@ -18,6 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/oppo/A37/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/oppo/A37/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
     vendor/oppo/A37/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/oppo/A37/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/oppo/A37/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
