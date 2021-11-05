@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/oppo/A37/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
     vendor/oppo/A37/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/oppo/A37/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/oppo/A37/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
@@ -26,9 +25,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/oppo/A37/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/oppo/A37/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
-    vendor/oppo/A37/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/oppo/A37/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/oppo/A37/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/oppo/A37/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
     vendor/oppo/A37/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/oppo/A37/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/oppo/A37/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
@@ -50,8 +49,14 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/oppo/A37/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
+    vendor/oppo/A37/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/oppo/A37/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/oppo/A37/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/oppo/A37/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/oppo/A37/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/oppo/A37/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc \
+    vendor/oppo/A37/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/oppo/A37/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/oppo/A37/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/oppo/A37/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -67,6 +72,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/oppo/A37/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/oppo/A37/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/oppo/A37/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/oppo/A37/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/oppo/A37/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/oppo/A37/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/oppo/A37/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
@@ -120,8 +127,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/oppo/A37/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/oppo/A37/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/oppo/A37/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/oppo/A37/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/oppo/A37/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/oppo/A37/proprietary/vendor/lib/libchromatix_hi545_15399_common.so:system/vendor/lib/libchromatix_hi545_15399_common.so \
     vendor/oppo/A37/proprietary/vendor/lib/libchromatix_hi545_15399_default_video.so:system/vendor/lib/libchromatix_hi545_15399_default_video.so \
@@ -184,6 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libchromatix_s5k3h7_15399_zsl_off.so:system/vendor/lib/libchromatix_s5k3h7_15399_zsl_off.so \
     vendor/oppo/A37/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/oppo/A37/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libcpion.so:system/vendor/lib/libcpion.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/oppo/A37/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/oppo/A37/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/oppo/A37/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -192,11 +204,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/oppo/A37/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/oppo/A37/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libhdcpsrm.so:system/vendor/lib/libhdcpsrm.so \
     vendor/oppo/A37/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/oppo/A37/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/oppo/A37/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/oppo/A37/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/oppo/A37/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
     vendor/oppo/A37/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/oppo/A37/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/oppo/A37/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
@@ -205,7 +219,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -250,6 +266,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oppo/A37/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/oppo/A37/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/oppo/A37/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/oppo/A37/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -279,23 +296,15 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/oppo/A37/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/A37/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/oppo/A37/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/oppo/A37/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/oppo/A37/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oppo/A37/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/oppo/A37/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/oppo/A37/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
-    vendor/oppo/A37/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/oppo/A37/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/oppo/A37/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/oppo/A37/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/oppo/A37/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/oppo/A37/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
-    vendor/oppo/A37/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/oppo/A37/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
-    vendor/oppo/A37/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
-    vendor/oppo/A37/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
-    
+    vendor/oppo/A37/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/oppo/A37/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
